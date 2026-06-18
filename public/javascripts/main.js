@@ -183,7 +183,7 @@ document.addEventListener("DOMContentLoaded", function () {
     }
   }
 
-  document.querySelectorAll('a[data-bs-tolggle="tab"]').forEach(function (tabEl) {
+  document.querySelectorAll('a[data-bs-toggle="tab"]').forEach(function (tabEl) {
     tabEl.addEventListener("show.bs.tab", function (e) {
       let target;
       if (e.target.textContent.trim() === "Info") {
